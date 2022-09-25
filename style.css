@@ -32,6 +32,7 @@ span {
     margin: auto;
     width: 60%;
     backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     height: 500px;
     border-radius: 20px;
     border: 2px solid #000;
@@ -144,25 +145,25 @@ body.dark .icon {
 }
 
 @media screen and (max-width: 600px){
+#container {
+  height: 400px;
+  top: 150px;
+    
+  }
+  #slider {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 500px){
   #container {
     height: 400px;
     top: 150px;
-    
-    }
-    #slider {
-      width: 100%;
-      height: 100%;
-    }
-}
-@media screen and (max-width: 500px){
-      #container {
-        height: 400px;
-        top: 150px;
-      }
-      #slider {
-        width: 100%;
-        height: 100%;
-      }
+  }
+  #slider {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 400px) {
