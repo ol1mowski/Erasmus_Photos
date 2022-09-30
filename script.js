@@ -66,7 +66,7 @@ let showSlide = (slideNumber) => {
 };
 
 let showNextSlide = () => {
-    if (activeSlideNumber == 19)
+    if (activeSlideNumber == 20)
     {
         activeSlideNumber = 1;
     }else {
@@ -78,7 +78,7 @@ let showNextSlide = () => {
 let showPreviousSlide = () => {
     if (activeSlideNumber == 1)
     {
-        activeSlideNumber = 19;
+        activeSlideNumber = 20;
     }else {
         activeSlideNumber = activeSlideNumber - 1;
     };

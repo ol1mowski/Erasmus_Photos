@@ -89,6 +89,18 @@ body.dark {
 body.dark .icon {
     transform: translateX(95px);
 }
+/*Button*/
+
+.bg__img {
+  position: absolute;
+}
+
+.bg__img--button {
+  top: 0;
+  right: 60%;
+  height: 30vh;
+  animation: slideDown 12s linear infinite;
+}
 
 /* Slider Settings*/
 
@@ -183,6 +195,15 @@ body.dark .icon {
   .photos:hover {
     filter: blur(2px);
   }
+
+  @keyframes slideDown {
+    from {
+        transform: translateY(-50vh)
+    }
+    to {
+        transform: translateY(100vh)
+    }
+}
 
 
 @media screen and (max-width: 1440px) {
