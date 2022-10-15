@@ -154,6 +154,4 @@ let showSlide20 = () => {
     showSlide(20);
 };
 
-
-arrowLeft.addEventListener('click', showPreviousSlide);
-arrowRight.addEventListener('click', showNextSlide);
+setInterval(showNextSlide, 3600);
